@@ -1,6 +1,5 @@
 import { IApplicationRepository } from "@applications/repositories/IApplicationRepository";
 import { AppError } from "@shared/errors/AppError";
-import { UserPublication } from "@userPublications/entities/UserPublication";
 import { IUserPublicationRepository } from "@userPublications/repositories/IUserPublicationRepository";
 import { IUsersRepository } from "@users/repositories/IUsersRepository";
 import { inject, injectable } from "tsyringe";

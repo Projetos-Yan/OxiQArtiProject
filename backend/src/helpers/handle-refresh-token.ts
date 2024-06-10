@@ -50,10 +50,10 @@ export const handleRefreshToken = async (
       }
 
       // create new access token
-      accessToken = await createUserAccessToken(user);
+      accessToken = createUserAccessToken(user);
 
       // create new refreshToken
-      const newToken = await createUserRefreshToken(user);
+      const newToken = createUserRefreshToken(user);
       refreshToken = newToken.refreshToken;
       
 
